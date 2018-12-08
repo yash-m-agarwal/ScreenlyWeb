@@ -1,0 +1,65 @@
+html 
+{
+	background-color: #f2f2f2;
+	height: 100%;
+	/*background: linear-gradient(to bottom, #f2f2f2, #aad4e5);*/
+	background-size: cover;
+	margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.images 
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cards 
+{
+	margin-top: 22px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.special 
+{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.people
+{
+	display: inline-flex;
+	justify-content: space-around;
+	font-family: Helvetica;
+}
+
+.people h1
+{
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 3px solid #aad4e5;
+}
+
+.student
+{
+	display: inline-block;
+	margin: 170px 0 0 200px;
+}
+
+ol
+{
+	font-size: 25px;
+}
+
+.faculty
+{
+	display: inline-block;
+	margin-top: 170px;
+	margin-left: 850px;
+}
